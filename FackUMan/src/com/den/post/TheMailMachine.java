@@ -21,7 +21,7 @@ public class TheMailMachine {
 		OutputStreamWriter wr = new OutputStreamWriter(conn.getOutputStream());
 		wr.write("DOne");
 		wr.flush();
-//		wr.close();
+		wr.close();
 	}
 	
 	public void sendReq(String url,String email,String fname) throws IOException{
